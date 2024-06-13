@@ -4,7 +4,6 @@ importScripts('https://www.gstatic.com/firebasejs/9.2.0/firebase-messaging-compa
 
 const firebaseConfig = {
   messagingSenderId: '96068949844',
-  apiKey: 'AIzaSyDtWI2N0p5_15M648EV3LwPcXfz5_W3IDI',
   projectId: 'cyhome-cyfeer',
   appId: '1:96068949844:web:57d54beb5a5a7a087edac1',
 };
