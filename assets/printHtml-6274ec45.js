@@ -1,0 +1,1 @@
+import{l as r}from"./index-c2ded735.js";import{n}from"./antd-f9eae174.js";function s(e){const o=window.open("Print","","","");o?(o.document.write(e),o.document.close(),o.onload=()=>{o.focus(),o.print(),o.close()}):n.error({message:r.label.error,description:r.error_description.print_error})}export{s as p};

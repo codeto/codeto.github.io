@@ -1,0 +1,1 @@
+import{h as o}from"./moment-a468e1f9.js";function a(M,r=!1){let{from:Y,to:t}=M;[Y,t]=[Number(r?o.utc(Y).format("YYYYMM"):o(Y).format("YYYYMM")),Number(r?o.utc(t).format("YYYYMM"):o(t).format("YYYYMM"))];const m=[];for(;t>=Y;)m.push(Y),Y=Number(o(Y,"YYYYMM").add(1,"month").format("YYYYMM"));return m}export{a as c};

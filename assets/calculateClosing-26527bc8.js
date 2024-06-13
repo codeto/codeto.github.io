@@ -1,0 +1,1 @@
+import{h as a}from"./moment-a468e1f9.js";import{e7 as f,e8 as h}from"./index-c2ded735.js";const c=(r,d,n=1,o="month")=>{let t=a(r).startOf("month").startOf("day");d===f?t=a(t).add(1,"month"):d===h&&(t=a(t).subtract(1,"month"));let s;return o==="month"?s=a(t).add(n,o).subtract(1,"day").endOf("month"):o==="day"&&(s=a(t).add(n-1,o)),s=s.endOf("day"),{opening:t,closing:s}};export{c};

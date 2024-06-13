@@ -1,0 +1,1 @@
+import{r as c}from"./react-4fd50329.js";import{a as l,dl as p}from"./index-c2ded735.js";const m=()=>{const{floors:t,setFloors:r}=c.useContext(l);return{floors:t,getFloors:async({idBuilding:s,filter:e,limit:a,page:n})=>{const o=await p({idBuilding:s,filter:e,limit:a,page:n});return r(o.data),o}}};export{m as u};

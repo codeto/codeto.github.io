@@ -1,0 +1,1 @@
+const S=(s,t,n)=>{if(!s)return null;const E=s.split("/"),M=`${t}x${n}`;return E.splice(E.length-1,0,M),E.join("/")},_="RESIDENT",c="EMPLOYEE",o="NOTICE",T="TEXT",e="IMAGES",I=4e3;export{I as M,T as a,e as b,S as c,_ as d,c as e,o as f};
